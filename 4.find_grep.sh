@@ -12,3 +12,4 @@ find . -name "*.sh" | xargs grep -n "helllo"
 # exec 옵션을 통한 find 와 grep
 find . -name "*.sh" -exec grep -n "hello" {}
 
+.
