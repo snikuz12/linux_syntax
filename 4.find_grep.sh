@@ -1,6 +1,6 @@
 # 문자열 검색
 grep -rni "hello"
-ps -ef | grep "nginx"
+
 
 # 파일 또는 디렉토리 검색 : find
 find . -name "*.sh"
@@ -11,3 +11,4 @@ find . -name "*.sh" | xargs grep -n "helllo"
 
 # exec 옵션을 통한 find 와 grep
 find . -name "*.sh" -exec grep -n "hello" {}
+
